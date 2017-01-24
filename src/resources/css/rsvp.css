@@ -264,13 +264,23 @@
 	letter-spacing: 1px;
 	line-height: 1;
 	height: auto;
-	margin-top: 16px;
-	margin-top: 1rem;
+	margin-top: 1em;
 	padding: 10px;
 	text-align: center;
 	-webkit-transition: all .15s ease-in-out;
 	transition: all .15s ease-in-out;
 	-webkit-font-smoothing: subpixel-antialiased;
+}
+
+#tribe-events .button:hover {
+	background: -webkit-linear-gradient( top, #068ED0, #05619F);
+	background: linear-gradient( to bottom, #068ED0, #05619F);
+}
+
+#tribe-events .button:active,
+		#tribe-events .button:focus {
+	background: -webkit-linear-gradient( bottom, #009FF1, #0080DB);
+	background: linear-gradient( to top, #009FF1, #0080DB);
 }
 
 .clear {

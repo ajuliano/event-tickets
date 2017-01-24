@@ -254,11 +254,20 @@
 		letter-spacing: 1px;
 		line-height: 1;
 		height: auto;
-		margin-top: 1rem;
+		margin-top: 1em;
 		padding: 10px;
 		text-align: center;
 		transition: all .15s ease-in-out;
 		-webkit-font-smoothing: subpixel-antialiased;
+
+		&:hover {
+			background: linear-gradient( to bottom, #068ED0, #05619F);
+		}
+
+		&:active,
+		&:focus {
+			background: linear-gradient( to top, #009FF1, #0080DB);
+		}
 	}
 }
 
